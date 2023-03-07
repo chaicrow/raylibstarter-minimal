@@ -17,7 +17,7 @@ int main() {
     // Your own initialization code here
     // ...
     // ...
-    Texture2D myTexture = LoadTexture("assets/graphics/testimage.png");
+    Texture2D myTexture = LoadTexture("assets/graphics/hatsune.png");
 
     // Main game loop
     while (!WindowShouldClose()) // Detect window close button or ESC key
@@ -31,7 +31,7 @@ int main() {
             // ...
             // ...
             ClearBackground(WHITE);
-            DrawText("Hello, world!", 10, 10, 30, LIGHTGRAY);
+            DrawText("slay queen", 10, 10, 30, LIGHTGRAY);
             DrawTexture(myTexture, 10, 100, WHITE);
 
         EndDrawing();
